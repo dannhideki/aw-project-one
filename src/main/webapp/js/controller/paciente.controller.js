@@ -1,18 +1,17 @@
-app.controller('medicoController', function($scope) {
-	
-   $scope.medico = {
+app.controller('pacienteController', function($scope) {
+   $scope.paciente = {
 		nome:'',
 		sobrenome:'',
+		nomeMae:'',
+		nomePai:'',
 		dataNascimento:'',
-		crm:'',
 		cpf:'',
+		rg:'',
 		cep:'',
 		rua:'',
 		numero:'',
 		bairro:'',
 		cidade:'',
 		banco:'',
-		agencia:'',
-		conta:''
    }
 });
