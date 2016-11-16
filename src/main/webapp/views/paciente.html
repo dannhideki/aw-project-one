@@ -1,0 +1,89 @@
+<div ng-cloak>
+	<md-content>
+		<md-tabs md-dynamic-height md-border-bottom>
+			<md-tab label="Cadastro">
+				<md-content class="md-padding">
+					<h1></h1>
+					<div class="section">
+						<md-content layout-gt-sm="row" layout-padding>
+								<md-input-container style="width:10%">
+									<label>Nome</label>
+									<input ng-model="paciente.nome"/>
+								</md-input-container>
+								
+								<md-input-container style="width:30%">
+									<label>SobreNome</label>
+									<input ng-model="paciente.sobrenome"/>
+								</md-input-container>
+								<md-input-container style="width:10%">
+									<label>RG</label>
+									<input ng-model="paciente.rg"/>
+								</md-input-container>
+								<md-input-container style="width:10%">
+									<label>CPF</label>
+									<input ng-model="paciente.cpf"/>
+								</md-input-container>
+								
+								<md-input-container style="width:5%">
+								    <md-datepicker ng-model="paciente.dataNascimento" md-placeholder="Dt. Nascimento"></md-datepicker>
+							    </md-input-container>
+						</md-content>
+						<md-content layout-gt-sm="row" layout-padding>
+								<md-input-container style="width:30%">
+									<label>Mãe</label>
+									<input ng-model="paciente.nomeMae"/>
+								</md-input-container>
+								
+								<md-input-container style="width:30%">
+									<label>Pai</label>
+									<input ng-model="paciente.nomePai">
+								</md-input-container>
+							
+						</md-content>
+						<md-content layout-gt-sm="row" layout-padding>
+								<md-input-container style="width:10%">
+									<label>CEP</label>
+									<input ng-model="paciente.cep"/>
+								</md-input-container>
+								
+								<md-input-container style="width:30%">
+									<label>Rua</label>
+									<input ng-model="paciente.rua">
+								</md-input-container>
+								<md-input-container style="width:5%">
+									<label>N° </label>
+									<input ng-model="paciente.numero"/>
+								</md-input-container>
+								
+								<md-input-container style="width:30%">
+									<label>Bairro</label>
+									<input ng-model="paciente.bairro">
+								</md-input-container>
+								
+								<md-input-container style="width:30%">
+									<label>Cidade</label>
+									<input ng-model="paciente.cidade">
+								</md-input-container>
+								
+						</md-content>
+						<md-content layout-gt-sm="row" layout-padding>
+							<md-input-container>
+							 <md-button class="md-raised">CADASTRAR</md-button>
+							</md-input-container>
+							<md-input-container>
+							 <md-button class="md-raised md-primary">CANCELAR</md-button>
+							</md-input-container>
+						</md-content>
+						
+					</div>
+				</md-content>
+			</md-tab>
+			<md-tab label="Consulta">
+				<md-content class="md-padding">
+					<h1></h1>
+					
+				</md-content>
+			</md-tab>
+		</md-tabs>
+	</md-content>
+</div>
