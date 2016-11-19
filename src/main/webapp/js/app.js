@@ -13,16 +13,19 @@ app.config(function($routeProvider){
             templateUrl: 'views/teste.html',
             controller: 'testeController'
             	
-        }).when('/medico',{
+        })
+        .when('/medico',{
             templateUrl: 'views/medico.html',
             controller: 'medicoController'
-        }).when('/paciente',{
-    		templateUrl:'views/paciente.html',
-    		controller:'pacienteController'
-    	}).when('/medicamento',{
-    		templateUrl:'views/medicamento.html',
-    		controller:'medicamentoController'
-    	})
+        })
+        .when('/paciente',{
+	    		templateUrl:'views/paciente.html',
+	    		controller:'pacienteController'
+        })
+        .when('/medicamento',{
+	    		templateUrl:'views/medicamento.html',
+	    		controller:'medicamentoController'
+        })
         .otherwise(
             { redirectTo: '/'}
         );
